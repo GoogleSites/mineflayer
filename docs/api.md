@@ -1574,7 +1574,7 @@ This function also returns a `Promise`, with `void` as its argument upon complet
 Set the direction your head is facing.
 
  * `yaw` - The number of radians to rotate around the vertical axis, starting
-   from due east. Counter clockwise.
+   from due north. Counter clockwise.
  * `pitch` - Number of radians to point up or down. 0 means straight forward.
    pi / 2 means straight up. -pi / 2 means straight down.
  * `force` - If present and true, skips the smooth server-side transition.
